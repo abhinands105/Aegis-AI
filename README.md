@@ -20,28 +20,27 @@ Detect and prevent cheating in **PUBG/BGMI** by analyzing player behavior patter
 
 \`\`\`
 Aegis-AI/
-│
-├── docs/                  # Documentation & design diagrams
-├── data/                  # Raw, processed, and sample datasets
-│   ├── raw/
-│   ├── processed/
-│   └── sample/
-├── src/                   # Core source code
-│   ├── data_collection/
-│   ├── feature_extraction/
-│   ├── models/
-│   ├── training/
-│   ├── inference/
-│   └── dashboard/
-├── notebooks/             # Jupyter notebooks for experiments
-├── tests/                 # Unit and integration tests
-├── configs/               # Configuration files (YAML/JSON)
-├── scripts/               # Utility and automation scripts
-├── deployment/            # Deployment-related files
-│   ├── client/
-│   ├── server/
-│   └── docker/
-├── requirements.txt       # Python dependencies
+├── docs/
+├── data/
+│ ├── raw/
+│ ├── processed/
+│ └── sample/
+├── src/
+│ ├── data_collection/
+│ ├── feature_extraction/
+│ ├── models/
+│ ├── training/
+│ ├── inference/
+│ └── dashboard/
+├── notebooks/
+├── tests/
+├── configs/
+├── scripts/
+├── deployment/
+│ ├── client/
+│ ├── server/
+│ └── docker/
+├── requirements.txt
 ├── .gitignore
 └── README.md
 \`\`\`
